@@ -13,7 +13,7 @@ An Arduino project that controls a fan automatically based on **room temperature
 | below 20 °C | Off |
 | 20–23 °C | 30% |
 | 23–26 °C | 60% |
-| 26–30 °C | Keeps current speed |
+| 26–30 °C | 80% |
 | 30 °C and above | 100% |
 
 The current status is shown on a 16×2 LCD.
