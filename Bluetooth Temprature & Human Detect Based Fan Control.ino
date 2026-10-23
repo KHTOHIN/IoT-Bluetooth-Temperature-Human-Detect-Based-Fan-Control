@@ -89,6 +89,12 @@ void loop(){
         delay(5000);
         lcd.clear();
       }
+      else if(temp< 30){                // FAN 80%
+        analogWrite(fan,220);
+        lcd.print("Fan Spreed: 80% ");
+        delay(5000);
+        lcd.clear();
+      }
       else if(temp>=30){                 // FAN 100%
         analogWrite(fan,255);
         lcd.print("Fan Spreed: 100% ");
